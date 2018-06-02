@@ -1,6 +1,6 @@
 # Nodejs ES Modules
 
-Basic example of using ES Modules in NodeJS
+Basic example of using ES Modules in NodeJS.  See [blog post](https://neil188.github.io/02-06-2018/NodeJS-ESModules/) for more details.
 
 ## Installation Instructions
 
