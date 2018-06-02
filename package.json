@@ -4,10 +4,15 @@
   "description": "Basic example of using ES Modules in NodeJS",
   "main": "index.js",
   "scripts": {
-    "experimental": "node --experimental-modules module.mjs"
+    "experimental": "node --experimental-modules module.mjs",
+    "webpack": "webpack module.mjs -o dist/webpacktest.js --mode=development",
+    "postwebpack": "node dist/webpacktest.js"
   },
   "keywords": [],
   "author": "N Lupton",
   "license": "MIT",
-  "devDependencies": {}
+  "devDependencies": {
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.1"
+  }
 }
