@@ -12,3 +12,10 @@ Basic example of using ES Modules in NodeJS
 
     `npm install`
 
+3. Running NodeJS with Experimental flag
+
+    `npm run experimental`
+
+4. Running Webpack build & execute output
+
+    `npm run webpack`
