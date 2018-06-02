@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-esmodules",
+  "version": "0.1.0",
+  "description": "Basic example of using ES Modules in NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "experimental": "node --experimental-modules module.mjs"
+  },
+  "keywords": [],
+  "author": "N Lupton",
+  "license": "MIT",
+  "devDependencies": {}
+}
