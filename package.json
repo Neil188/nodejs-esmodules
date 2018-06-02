@@ -14,5 +14,9 @@
   "devDependencies": {
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Neil188/nodejs-esmodules.git"
+  },
 }
