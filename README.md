@@ -19,3 +19,7 @@ Basic example of using ES Modules in NodeJS
 4. Running Webpack build & execute output
 
     `npm run webpack`
+
+5. Running Babel build & execute output
+
+    `npm run babel`

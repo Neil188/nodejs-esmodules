@@ -6,12 +6,16 @@
   "scripts": {
     "experimental": "node --experimental-modules module.mjs",
     "webpack": "webpack module.mjs -o dist/webpacktest.js --mode=development",
-    "postwebpack": "node dist/webpacktest.js"
+    "postwebpack": "node dist/webpacktest",
+    "babel": "babel module.mjs myUtil/index.mjs myUtil2/index.js -d dist/babeltest",
+    "postbabel": "node dist/babeltest/module"
   },
   "keywords": [],
   "author": "N Lupton",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
     "webpack": "^4.10.2",
     "webpack-cli": "^3.0.1"
   },
